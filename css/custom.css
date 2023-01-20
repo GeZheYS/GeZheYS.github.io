@@ -919,7 +919,7 @@ h6::before {
 
 
 /* 个人信息卡片背景图 */
-[data-theme="light"] #aside-content > .card-widget.card-info {
+/* [data-theme="light"] #aside-content > .card-widget.card-info {
   background-image: url(https://picbed.gzhe.site/img/p103.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
@@ -930,7 +930,7 @@ h6::before {
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
-}
+} */
 
 
 
