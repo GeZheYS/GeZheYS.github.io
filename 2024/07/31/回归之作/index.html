@@ -43,7 +43,7 @@
     buttonText: '加载更多'
   },
   isPhotoFigcaption: false,
-  islazyload: t,
+  islazyload: ture,
   isAnchor: false,
   percent: {
     toc: true,
@@ -170,7 +170,7 @@
   preloader.initLoading()
   window.addEventListener('load',() => { preloader.endLoading() })
 
-  if (true) {
+  if (ture) {
     document.addEventListener('pjax:send', () => { preloader.initLoading() })
     document.addEventListener('pjax:complete', () => { preloader.endLoading() })
   }
