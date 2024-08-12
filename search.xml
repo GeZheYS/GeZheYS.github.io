@@ -114,11 +114,33 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* 一图流 *//* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }    /* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}/* 自定义字体 *//* 优设好身体 */@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'YSHST';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/YSHaoShenTi.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 重庆山城棒棒体 */@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'CQBBT';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/云峰字库重庆山城棒棒体.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 鸿蒙字体 */@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'HarmonyOS Black';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/HarmonyOS_Sans_Naskh_Arabic_UI_Black.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'HarmonyOS Bold';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/HarmonyOS_Sans_Naskh_Arabic_UI_Bold.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'HarmonyOS Light';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/HarmonyOS_Sans_Naskh_Arabic_UI_Light.ttff);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'HarmonyOS Medium';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/HarmonyOS_Sans_Naskh_Arabic_UI_Medium.ttff);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'HarmonyOS Regular';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/HarmonyOS_Sans_Naskh_Arabic_UI_Regular.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'HarmonyOS Thin';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/HarmonyOS_Sans_Naskh_Arabic_UI_Thin.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 双侧栏bug修复 *//* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[var now=new Date;function createtime(){now.setTime(now.getTime()+1e3);var e=new Date("12/14/2022 00:00:00"),t=Math.trunc(234e8+(now-e)/1e3*17),a=(t/1496e5).toFixed(6),r=new Date("12/14/2022 00:00:00"),n=(now-r)/1e3/60/60/24,o=Math.floor(n),i=(now-r)/1e3/60/60-24*o,s=Math.floor(i);1==String(s).length&&(s="0"+s);var l=(now-r)/1e3/60-1440*o-60*s,c=Math.floor(l);1==String(c).length&&(c="0"+c);var d=(now-r)/1e3-86400*o-3600*s-60*c,g=Math.round(d);1==String(g).length&&(g="0"+g);let b="";b=s<18&&s>=9?`<img class='boardsign' src='https://picbed.gys.zone/badge/歌元式-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> 本站居然运行了 ${o} 天 ${s} 小时 ${c} 分 ${g} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀`:`<img class='boardsign' src='https://picbed.gys.zone/badge/歌元式-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> 本站居然运行了 ${o} 天 ${s} 小时 ${c} 分 ${g} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=b)}setInterval((()=>{createtime()}),1e3);]]></content>
       
     </entry>
     
@@ -136,11 +158,22 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[var now=new Date;function createtime(){now.setTime(now.getTime()+1e3);var e=new Date("12/14/2022 00:00:00"),t=Math.trunc(234e8+(now-e)/1e3*17),a=(t/1496e5).toFixed(6),r=new Date("12/14/2022 00:00:00"),n=(now-r)/1e3/60/60/24,o=Math.floor(n),i=(now-r)/1e3/60/60-24*o,s=Math.floor(i);1==String(s).length&&(s="0"+s);var l=(now-r)/1e3/60-1440*o-60*s,c=Math.floor(l);1==String(c).length&&(c="0"+c);var d=(now-r)/1e3-86400*o-3600*s-60*c,g=Math.round(d);1==String(g).length&&(g="0"+g);let b="";b=s<18&&s>=9?`<img class='boardsign' src='https://picbed.gys.zone/badge/歌元式-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> 本站居然运行了 ${o} 天 ${s} 小时 ${c} 分 ${g} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀`:`<img class='boardsign' src='https://picbed.gys.zone/badge/歌元式-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> 本站居然运行了 ${o} 天 ${s} 小时 ${c} 分 ${g} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=b)}setInterval((()=>{createtime()}),1e3);]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -161,39 +194,6 @@
       <title>电影</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 一图流 *//* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }    /* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}/* 自定义字体 */@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'YSHST';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/YSHaoShenTi.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'CQBBT';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/云峰字库重庆山城棒棒体.ttf);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 双侧栏bug修复 *//* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
